@@ -88,10 +88,10 @@ public class BoardController {
 		logger.info(""+url+"호출");
 		BoardVo article = boardService.getArticle(boardVo.getArticleNO());
 		
-		List<ReplyVo> replyList = boardService.replyList(boardVo.getArticleNO());
+		// List<ReplyVo> replyList = boardService.replyList(boardVo.getArticleNO());
 		ModelAndView mav = new ModelAndView();
 		mav.addObject("article", article);
-		mav.addObject("replyList", replyList);
+		// mav.addObject("replyList", replyList);
 		mav.addObject("stitle", stitle);
 		mav.addObject("sid", sid);
 		mav.addObject("scontent", scontent);
