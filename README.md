@@ -107,7 +107,7 @@
   	</select>
 
 
-    	<select id="checkIsMember" parameterType="memberVo" resultType="memberVo">
+    <select id="checkIsMember" parameterType="memberVo" resultType="memberVo">
 		 select * from t_member	
 		where id=#{id}      
 	</select>
