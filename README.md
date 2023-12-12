@@ -2,6 +2,7 @@
 
 #### 1.SQL
   1-1.board.xml
+  
   	<select id="selectAllBoardList" parameterType="Map" resultMap="boardResult">
      	select * 
      	from(
