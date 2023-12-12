@@ -11,7 +11,7 @@
   - 로그아웃 
   - 회원가입 - jsp(front) 및 서버(back)에서 아이디 및 패스워드의 형식, 길이 제한 / 서버(back)에서 패스워드 암호화 후 db(oracle)에 저장
 
-#### 1.SQL
+#### 2.SQL
   1-1.board.xml
   
   	<select id="selectAllBoardList" parameterType="Map" resultMap="boardResult">
