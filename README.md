@@ -1,4 +1,15 @@
-### MVC게시판(Spring Framwork, MyBatis, tiles)
+### MVC게시판(Spring Framwork, MyBatis, Oracle, tiles)
+
+#### 1. 구현된 기능
+- 게시판
+  - 글 상세
+  - 글 등록 - jsp(front)에서 javascript로 글제목 길이, 글내용 길이, 파일형식 제한
+  - 글 삭제
+  - 글 수정
+- 회원
+  - 로그인 - jsp(front) 및 서버(back)에서 아이디 및 패스워드의 형식, 길이 제한
+  - 로그아웃 
+  - 회원가입 - jsp(front) 및 서버(back)에서 아이디 및 패스워드의 형식, 길이 제한 / 서버(back)에서 패스워드 암호화 후 db(oracle)에 저장
 
 #### 1.SQL
   1-1.board.xml
