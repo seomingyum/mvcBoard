@@ -90,7 +90,7 @@
 
    1-2.memebr.xml
    	
-    	<select id="getLoginMember"  resultType="memberVo"   parameterType="memberVo">
+    <select id="getLoginMember"  resultType="memberVo"   parameterType="memberVo">
   		select * from t_member	
   		where id=#{id}		
   	</select>
