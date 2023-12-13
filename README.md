@@ -9,9 +9,16 @@
 - 회원
   - 로그인 - jsp(front) 및 서버(back)에서 아이디 및 패스워드의 형식, 길이 제한
   - 로그아웃 
-  - 회원가입 - jsp(front) 및 서버(back)에서 아이디 및 패스워드의 형식, 길이 제한 / 서버(back)에서 패스워드 암호화 후 db(oracle)에 저장
+  - 회원가입 - jsp(front) 및 서버(back)에서 아이디 및 패스워드의 형식, 길이 제한 / 서버(back)에서 패스워드 단방향 암호화 후 db(oracle)에 저장
 
-#### 2.SQL
+
+#### 2. 추후 구현해야할 기능
+- 게시판
+  - 글 등록 - 서버측에서 글제목 길이, 글내용 길이, 파일형식 제한
+  - 답글 기능
+
+ 
+#### 3.SQL
   1-1.board.xml
   
   	<select id="selectAllBoardList" parameterType="Map" resultMap="boardResult">
